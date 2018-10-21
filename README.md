@@ -1,6 +1,7 @@
 # MiniPascalCompiler
 
-Mini Pascal Compiler from Pascal to MIPS. Generate abstract syntax tree and intermediate representation. Including semantic analysis, optimization and error recovery.
+Mini Pascal Compiler from Pascal to MIPS. 
+Generate abstract syntax tree and intermediate representation. Including semantic analysis, optimization and error recovery.
 
 ## Functions
 - Constant definition of the basic type
