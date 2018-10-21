@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/mmpascal/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="D:/mmpascal/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/mmpascal/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="D:/mmpascal/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/mmpascal/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/mmpascal/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/mmpascal/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/mmpascal/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/mmpascal/src/absyn.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/absyn.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/assem.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/assem.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/canon.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/canon.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/codegen.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/codegen.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/env.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/env.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/errormsg.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/errormsg.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/frame.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/frame.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/lex.yy.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/main.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/prabsyn.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/prabsyn.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/prirtree.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/prirtree.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/semant.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/semant.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/symbol.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/symbol.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/table.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/table.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/temp.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/temp.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/translate.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/translate.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/tree.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/tree.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/types.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/types.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/util.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/util.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/y.tab.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/y.tab.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/mmpascal/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

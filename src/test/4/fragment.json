@@ -1,0 +1,42 @@
+ {
+ "name": "EXP",
+ "children": [
+  {
+  "name": "ESEQ",
+  "children": [
+   {
+   "name": "MOVE",
+   "children": [
+    {"name": "TEMP(t6)"},
+    {
+    "name": "MEM",
+    "children": [
+     {
+     "name": "BINOP",
+     "children": [
+      {"name": "PLUS"},
+      {
+      "name": "MEM",
+      "children": [
+       {
+       "name": "BINOP",
+       "children": [
+        {"name": "PLUS"},
+        {"name": "TEMP(t5)"},
+        {"name": "CONST(0)"}
+       ]
+       }
+      ]
+      },
+      {"name": "CONST(4)"}
+     ]
+     }
+    ]
+    }
+   ]
+   },
+   {"name": "CONST(0)"}
+  ]
+  }
+ ]
+ }

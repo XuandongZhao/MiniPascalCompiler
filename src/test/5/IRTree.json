@@ -1,0 +1,78 @@
+ {
+ "name": "ESEQ",
+ "children": [
+  {
+  "name": "EXP",
+  "children": [
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "MOVE",
+    "children": [
+     {"name": "TEMP(t4)"},
+     {"name": "CONST(0)"}
+    ]
+    },
+    {"name": "CONST(0)"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "ESEQ",
+  "children": [
+   {
+   "name": "EXP",
+   "children": [
+    {
+    "name": "ESEQ",
+    "children": [
+     {
+     "name": "MOVE",
+     "children": [
+      {"name": "TEMP(t6)"},
+      {"name": "CONST(0)"}
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "EXP",
+    "children": [
+     {"name": "CONST(0)"}
+    ]
+    },
+    {
+    "name": "ESEQ",
+    "children": [
+     {
+     "name": "MOVE",
+     "children": [
+      {"name": "TEMP(t6)"},
+      {
+      "name": "CALL",
+      "children": [
+       {"name": "NAME(L1)"},
+        {"name": "TEMP(t5)"},
+        {"name": "CONST(24)"},
+        {"name": "CONST(36)"}
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }

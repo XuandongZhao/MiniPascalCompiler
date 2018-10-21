@@ -1,0 +1,237 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "i"},
+    {"name": "integer"}
+
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "j"},
+     {"name": "integer"}
+
+    ]
+    },
+    {
+    "name": "decList",
+    "children": [
+     {
+     "name": "varDec",
+     "children": [
+      {"name": "z"},
+      {"name": "integer"}
+
+     ]
+     },
+     {
+     "name": "decList",
+     "children": [
+      {
+      "name": "varDec",
+      "children": [
+       {"name": "k"},
+       {"name": "integer"}
+
+      ]
+      },
+      {
+      "name": "decList",
+      "children": [
+       {
+       "name": "varDec",
+       "children": [
+        {"name": "m"},
+        {"name": "integer"}
+
+       ]
+       },
+       {
+       "name": "decList",
+       "children": [
+        {
+        "name": "varDec",
+        "children": [
+         {"name": "n"},
+         {"name": "integer"}
+
+        ]
+        },
+        {"name": "decList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(i)"},
+     {"name": "intExp(2)"}
+    ]
+    },
+    {
+    "name": "expList",
+    "children": [
+     {
+     "name": "assignExp",
+     "children": [
+      {"name": "simpleVar(j)"},
+      {
+      "name": "opExp",
+      "children": [
+       {"name": "MINUS"},
+       {"name": "intExp(0)"},
+       {"name": "intExp(3)"}
+      ]
+      }
+     ]
+     },
+     {
+     "name": "expList",
+     "children": [
+      {
+      "name": "assignExp",
+      "children": [
+       {"name": "simpleVar(z)"},
+       {
+       "name": "opExp",
+       "children": [
+        {"name": "TIMES"},
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(i)"}
+        ]
+        },
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(j)"}
+        ]
+        }
+       ]
+       }
+      ]
+      },
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "assignExp",
+       "children": [
+        {"name": "simpleVar(k)"},
+        {
+        "name": "opExp",
+        "children": [
+         {"name": "DIVIDE"},
+         {
+         "name": "varExp",
+         "children": [
+          {"name": "simpleVar(i)"}
+         ]
+         },
+         {
+         "name": "varExp",
+         "children": [
+          {"name": "simpleVar(j)"}
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {
+       "name": "expList",
+       "children": [
+        {
+        "name": "assignExp",
+        "children": [
+         {"name": "simpleVar(m)"},
+         {
+         "name": "opExp",
+         "children": [
+          {"name": "PLUS"},
+          {
+          "name": "varExp",
+          "children": [
+           {"name": "simpleVar(i)"}
+          ]
+          },
+          {
+          "name": "varExp",
+          "children": [
+           {"name": "simpleVar(j)"}
+          ]
+          }
+         ]
+         }
+        ]
+        },
+        {
+        "name": "expList",
+        "children": [
+         {
+         "name": "assignExp",
+         "children": [
+          {"name": "simpleVar(n)"},
+          {
+          "name": "opExp",
+          "children": [
+           {"name": "MINUS"},
+           {
+           "name": "varExp",
+           "children": [
+            {"name": "simpleVar(i)"}
+           ]
+           },
+           {
+           "name": "varExp",
+           "children": [
+            {"name": "simpleVar(j)"}
+           ]
+           }
+          ]
+          }
+         ]
+         },
+         {"name": "expList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }
